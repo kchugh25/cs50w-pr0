@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Project 0</title>
+        <title>Google</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>My first Project</h1>
-        This is beginning of Project 0
+        <div class="nav_bar">
+            <div class="nav_elements">
+                <a href="images.html" class="nav_link">Image Search</a>
+                <a href="advance_search.html" class="nav_link">Advance Search</a>
+            </div>
+        </div>
+        <div class="img_container">
+            <div class="google">
+                <img class="img" src="Images/google logo.png" alt="Google Image" height="92px" width="272px">
+            </div>
+        </div>
+        <div class="search_bar">
+            <form action="https://www.google.com/search">
+                <input type="text" name="q" class="search">
+                <div class="buttons">
+                    <input type="submit" value="Google Search" class="btn">
+                    <input type="submit" value="I'm feeling lucky" class="btn">
+                </div>
+           </form>
+        </div>
     </body>
 </html>
